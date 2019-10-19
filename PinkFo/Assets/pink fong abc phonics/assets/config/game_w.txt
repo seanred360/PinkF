@@ -1,0 +1,11 @@
+{
+	"game":"sweep",
+	"items": [ 
+		{ "word":"witch"},
+		{ "word":"wolf"}
+
+	],
+	"left_ch" : { "scale" : 0.7 , "diffy" : 0 , "diffx" : -10 },
+	"right_ch" : { "scale" : 0.6 , "diffy" : 0 , "diffx" : 15 }
+
+}

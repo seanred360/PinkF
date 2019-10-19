@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="exit_program">한번 더 누르시면 종료됩니다.</string>
+    <string name="store_buy_freeitem">무료 아이템을 다운로드하시겠습니까?</string>
+    <string name="package_item_include_other_item_warning">선택하신 세트 상품에는 이미 구입한 아이템이 일부 포함되어 있어 중복될 수 있습니다.</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+	<string name="title_confirm">확인</string>
+    <string name="btn_ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="external_storage_not_installed">저장공간이 인식되지 않습니다. 확인 부탁드립니다.</string>
+    <string name="external_storage_exceed">저장공간의 용량이 부족합니다. \n앱 실행에 문제가 있을 수 있습니다.\n확인 부탁드립니다.</string>
+    <string name="external_storage_exceed_for_download">저장공간의 용량이 부족해, 파일을 다운로드할 수 없습니다.</string>
+    <string name="first_restore_notice">구입내역 확인중입니다. 잠시만 기다려 주세요.</string>
+    <string name="app_terminate">앱이 종료되었습니다.</string>
+    <string name="network_not_connected">네트워크에 접속되어 있지 않습니다.\n네트워크 상태를 확인해 주세요.</string>
+    <string name="network_not_good">네트워크 연결이 불안정해 다운로드가 진행되지 않을 수 있습니다.\n네트워크 상태를 확인하고 다시 시도해주세요.</string>
+    <string name="threeg_download_alert">무선랜(Wi-Fi)에 연결되지\n않았습니다. 무선인터넷(3G/LTE)으로 접속하시겠습니까?\n(가입하신 요금제에 따라 데이터 요금이 청구될 수 있습니다)</string>
+    <string name="download_data">다운로드를 시작합니다.</string>
+    <string name="download_data_hold">다운로드가 일시정지되었습니다.</string>
+    <string name="restore_all_success">다시 이용해 주셔서 감사합니다.\n구입하신 아이템이 재다운로드됩니다.</string>
+    <string name="restore_all_success_but_nohistory">구입 내역이 없습니다.</string>
+    <string name="info_ready_to_start">앱 시작 준비 중입니다.</string>
+    <string name="review_dlg_msg">이 앱이 마음에 드셨다면 ♥\n따뜻한 한마디 부탁드려요! </string>
+    <string name="review_dlg_later">나중에요</string>
+    <string name="review_dlg_rate">리뷰쓰기♥</string>
+	<string name="inapp_fail_etc">시스템 오류가 발생했습니다. 잠시 후 이용해 주세요.</string>
+    <string name="play_noti_first_song">처음 영상입니다.</string>
+    <string name="play_noti_last_song">마지막 영상입니다.</string>
+
+	
+    <string name="alert_title_info">알림</string>
+    <string name="inapp_confirm_purchase">'{itemname}'을(를) 구입 하시겠습니까?</string>
+
+	<string name="photo_access_denied_msg">사진첩에 접근이 거부되었습니다. [설정]->[개인 정보 보호]->[사진]에서 접근 설정해 주세요. </string>
+    <string name="photo_saved_success_msg">사진이 저장되었습니다.</string>
+	<string name="photo_saved_failed_msg">사진 저장에 실패했습니다. 다시 시도해 주세요.</string>	
+
+	<string name="localpush_1day_msg">쓱싹쓱싹, 쉬운 알파벳 따라쓰기 시간! </string>
+    <string name="localpush_2day_msg">비눗방울 게임으로 B 복습하는 날!</string>
+    <string name="localpush_3day_msg">콕콕콕! 신나게 알 깨고 알파벳 D 익히기!</string>
+    <string name="localpush_7day_msg">귀여운 ABC 카메라로 사진 찍어 보세요!^^  </string>
+    <string name="localpush_14day_msg">핑크퐁 파닉스로 알파벳 마스터하세요! </string>	
+	
+	<string name="ssiap_canceled_purchase">구매가 취소되었습니다.</string>
+	<string name="camera_access_denied_ios">카메라에 접근할 수 없습니다. 설정-개인정보보호-카메라에서 권한 정보를 수정할 수 있습니다.</string>
+	<string name="camera_access_denied_aos">카메라 접근 권한이 없습니다. </string>
+    
+</resources>

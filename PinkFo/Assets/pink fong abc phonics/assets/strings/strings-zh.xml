@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="exit_program">再次按下此键，可关闭应用。</string>
+    <string name="store_buy_freeitem">是否下载免费项目？</string>
+    <string name="package_item_include_other_item_warning">您所选择的合集有可能包含部分已购买项目。</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="title_confirm">确定</string>
+    <string name="btn_ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="external_storage_not_installed">无法识别内存，请确认。</string>
+    <string name="external_storage_exceed">内存不足，应用有可能无法正常运行，请确认。</string>
+    <string name="external_storage_exceed_for_download">内存不足，将无法下载文件。</string>
+    <string name="first_restore_notice">正在确认购买记录，请稍侯…</string>
+    <string name="app_terminate">应用已被关闭。</string>
+    <string name="network_not_connected">无法得到适当的网络连接。请检查您的网络状态，然后再试一次。</string>
+    <string name="network_not_good">连接网路不稳定，检查您的网络状态，然后再试一次。</string>
+    <string name="threeg_download_alert">是否下载项目？</string>
+    <string name="download_data">开始下载…</string>
+    <string name="download_data_hold">下载暂停。</string>
+    <string name="restore_all_success">感谢您再次访问，已购买的应用程序将被自动下载。</string>
+    <string name="restore_all_success_but_nohistory">没有购买记录或要下载的项目。</string>
+    <string name="info_ready_to_start">准备运行应用程序…</string>
+    <string name="review_dlg_msg">喜欢这个软件吗？\n请你评论一下哦！</string>
+    <string name="review_dlg_later">下次再说</string>
+    <string name="review_dlg_rate">我要去评论♥</string>
+	<string name="inapp_fail_etc">系统发生错误，请稍后再试。</string>
+    <string name="play_noti_first_song">这是第一个视频。</string>
+    <string name="play_noti_last_song">这是最后一个视频。</string>
+	
+	
+	 <string name="alert_title_info">提醒</string>
+    <string name="inapp_confirm_purchase">你想购买\'{itemname}\'吗？</string>
+   
+	<string name="photo_access_denied_msg">这个应用程序无法访问手机相册。 您可以在隐私设置中启用访问。</string>
+    <string name="photo_saved_success_msg">照片保存成功。</string>
+	<string name="photo_saved_failed_msg">保存照片失败。请再试一次。</string>
+
+	<string name="localpush_1day_msg">开心的英文字母描红时间！</string>
+    <string name="localpush_2day_msg">一边玩儿肥皂泡游戏一边复习英文字母B！ </string>
+    <string name="localpush_3day_msg">一边打碎蛋一边学习英文字母D！ </string>
+    <string name="localpush_7day_msg">请用可爱的ABC照相机拍照片吧！</string>
+    <string name="localpush_14day_msg">还记得学过的英文字母吗？一起学好英文字母吧！</string>	
+	
+	<string name="ssiap_canceled_purchase">取消购买。</string>
+    <string name="camera_access_denied_ios">这个应用程序无法访问照相。您可以在设置-隐私-相机修改应用权限设置。</string>    
+    <string name="camera_access_denied_xiaomi">这个应用程序无法访问手机相机。请进入隐私设置修改权限。</string>        
+</resources>

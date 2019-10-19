@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>game_03_ch_d.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{47, 12}, {206, 241}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{206, 241}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{416, 1582}, {206, 241}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_f.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{66, 10}, {170, 245}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{170, 245}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{624, 1782}, {170, 245}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_j.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{70, 8}, {162, 249}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{162, 249}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{205, 1644}, {162, 249}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_m.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{34, 10}, {232, 245}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{232, 245}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{440, 1084}, {232, 245}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_o.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{32, 8}, {236, 249}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{236, 249}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{202, 1086}, {236, 249}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_r.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{50, 10}, {200, 245}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{200, 245}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 886}, {200, 245}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_t.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{48, 10}, {204, 245}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{204, 245}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{654, 1535}, {204, 245}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_v.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{45, 8}, {212, 249}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{212, 249}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{440, 1331}, {212, 249}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_ch_y.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{52, 8}, {196, 249}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{196, 249}</string>
+			<key>spriteSourceSize</key>
+			<string>{300, 265}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 1133}, {196, 249}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_01.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{87, 0}, {57, 73}}</string>
+			<key>spriteOffset</key>
+			<string>{14, 234}</string>
+			<key>spriteSize</key>
+			<string>{57, 73}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{198, 1337}, {57, 73}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_02.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{88, 0}, {61, 133}}</string>
+			<key>spriteOffset</key>
+			<string>{17, 204}</string>
+			<key>spriteSize</key>
+			<string>{61, 133}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{703, 857}, {61, 133}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_03.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{88, 0}, {85, 139}}</string>
+			<key>spriteOffset</key>
+			<string>{29, 201}</string>
+			<key>spriteSize</key>
+			<string>{85, 139}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{703, 716}, {85, 139}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_04.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{88, 0}, {85, 173}}</string>
+			<key>spriteOffset</key>
+			<string>{29, 184}</string>
+			<key>spriteSize</key>
+			<string>{85, 173}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{703, 541}, {85, 173}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_05.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {157, 223}}</string>
+			<key>spriteOffset</key>
+			<string>{-7, 159}</string>
+			<key>spriteSize</key>
+			<string>{157, 223}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{796, 1818}, {157, 223}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_06.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {157, 281}}</string>
+			<key>spriteOffset</key>
+			<string>{-7, 130}</string>
+			<key>spriteSize</key>
+			<string>{157, 281}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{860, 1535}, {157, 281}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_07.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {157, 305}}</string>
+			<key>spriteOffset</key>
+			<string>{-7, 118}</string>
+			<key>spriteSize</key>
+			<string>{157, 305}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{257, 1337}, {157, 305}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_08.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {187, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{8, 100}</string>
+			<key>spriteSize</key>
+			<string>{187, 341}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 543}, {187, 341}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_09.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {187, 405}}</string>
+			<key>spriteOffset</key>
+			<string>{8, 68}</string>
+			<key>spriteSize</key>
+			<string>{187, 405}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{822, 453}, {187, 405}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 0}, {187, 451}}</string>
+			<key>spriteOffset</key>
+			<string>{8, 45}</string>
+			<key>spriteSize</key>
+			<string>{187, 451}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{822, 0}, {187, 451}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {203, 503}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 19}</string>
+			<key>spriteSize</key>
+			<string>{203, 503}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 1535}, {203, 503}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_crack_12.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {203, 541}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{203, 541}</string>
+			<key>spriteSourceSize</key>
+			<string>{203, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{205, 543}, {203, 541}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_full.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {409, 541}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{409, 541}</string>
+			<key>spriteSourceSize</key>
+			<string>{409, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {409, 541}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_full_front.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 2}, {409, 539}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -1}</string>
+			<key>spriteSize</key>
+			<string>{409, 539}</string>
+			<key>spriteSourceSize</key>
+			<string>{409, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{411, 0}, {409, 539}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_left.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {275, 541}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{275, 541}</string>
+			<key>spriteSourceSize</key>
+			<string>{275, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{703, 992}, {275, 541}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_egg_right.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {290, 541}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{290, 541}</string>
+			<key>spriteSourceSize</key>
+			<string>{290, 541}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{411, 541}, {290, 541}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_nest_back.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{37, 1}, {138, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{6, 17}</string>
+			<key>spriteSize</key>
+			<string>{138, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{200, 78}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{766, 938}, {138, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>game_03_nest_front.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 2}, {200, 76}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -1}</string>
+			<key>spriteSize</key>
+			<string>{200, 76}</string>
+			<key>spriteSourceSize</key>
+			<string>{200, 78}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{766, 860}, {200, 76}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.6.0</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 2048}</string>
+		<key>name</key>
+		<string>egg</string>
+		<key>textureFileName</key>
+		<string>egg.png</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

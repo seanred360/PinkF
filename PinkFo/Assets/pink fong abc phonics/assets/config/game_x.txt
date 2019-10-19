@@ -1,0 +1,10 @@
+{
+	"game":"bubble",
+	"items": [ 
+		{ "word": "xylophone" },
+		{ "word": "xray"  },
+		{ "word": "box" },
+		{ "word": "fox" }
+	]
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="exit_program">Press once more to exit.</string>
+    <string name="store_buy_freeitem">Would you like to download this free item?</string>
+    <string name="package_item_include_other_item_warning">This pack may include items that you have already purchased.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="btn_ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="external_storage_not_installed">Unable to find free storage space. Please check.</string>
+    <string name="external_storage_exceed">The App may not work properly due to lack of capacity.</string>
+    <string name="external_storage_exceed_for_download">Unable to download due to lack of capacity.</string>
+    <string name="first_restore_notice">Checking your purchase history.</string>
+    <string name="app_terminate">App has been terminated.</string>
+    <string name="network_not_connected">Unable to get proper network connection. Please check your network status and try again.</string>
+    <string name="network_not_good">Download might not process while the network is unstable. Please check your network status.</string>
+    <string name="threeg_download_alert">No wi-fi connection. Would you like to connect via 3G or LTE? (Data charge will differ depending on your payment system.)</string>
+    <string name="download_data">Download begins.</string>
+    <string name="download_data_hold">Download paused.</string>
+    <string name="restore_all_success">Thank you for visiting us again. The following items you have previously purchased will be downloaded now.</string>
+    <string name="restore_all_success_but_nohistory">You have no purchase history or items to download.</string>
+    <string name="info_ready_to_start">Loading… Please wait.</string>
+    <string name="review_dlg_msg">Enjoying our app?\nRate us today!\nThank you! :) </string>
+    <string name="review_dlg_later">Later</string>
+    <string name="review_dlg_rate">Rate us♥</string>
+	<string name="inapp_fail_etc">An error occurred in the system. Please try later.</string>
+    <string name="play_noti_first_song">This is the first video.</string>
+    <string name="play_noti_last_song"> This is the last video.</string>
+	
+	
+	<string name="alert_title_info">Notice</string>
+    <string name="inapp_confirm_purchase">Would you like to buy \'{itemname}\'?</string>
+	
+	<string name="photo_access_denied_msg">This app does not have access to your photos. You can enable access in [Privacy] Settings.</string>
+    <string name="photo_saved_success_msg">Photo saved.</string>
+	<string name="photo_saved_failed_msg">Saving photo failed. Please try again.</string>
+
+	<string name="localpush_1day_msg">Fun &amp; Easy Alphabet tracing time! </string>
+    <string name="localpush_2day_msg">Play bubble game &amp; learn the letter B! </string>
+    <string name="localpush_3day_msg">Crack some eggs &amp; learn the letter D!  </string>
+    <string name="localpush_7day_msg">Try the adorable ABC camera today!  </string>
+    <string name="localpush_14day_msg">Remember your ABCs? Have some fun today!</string>
+   
+    <string name="ssiap_canceled_purchase">Purchase has been canceled.</string>
+    <string name="camera_access_denied_ios">Our app does not have access to your camera. To enable access go to: Settings-Privacy-Camera.</string>
+    <string name="camera_access_denied_aos">This app does not have access to your camera. </string>    
+    <string name="camera_access_denied_xiaomi">This app does not have access to your camera. You can enable access in Privacy Settings.</string>    
+	
+</resources>

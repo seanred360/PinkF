@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="exit_program">Appuyez une nouvelle fois pour quitter.</string>
+    <string name="store_buy_freeitem">Voulez-vous télécharger cet article gratuit ?</string>
+    <string name="package_item_include_other_item_warning">Ce pack peut inclure des articles que vous avez déjà achetés.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="title_confirm">Confirmer</string>
+    <string name="btn_ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="external_storage_not_installed">Impossible de trouver un espace de stockage. Veuillez vérifier.</string>
+    <string name="external_storage_exceed">L\'application ne peut fonctionner correctement en raison d\'un manque de capacité.</string>
+    <string name="external_storage_exceed_for_download">Impossible de télécharger en raison d\'un manque de capacité.</string>
+    <string name="first_restore_notice">Vérification de votre historique d\'achat.</string>
+    <string name="app_terminate">L\'application a été résiliée.</string>
+    <string name="network_not_connected">Impossible d\'obtenir une connexion réseau correct. S\'il vous plaît vérifier l\'état de votre réseau et réessayez.</string>
+    <string name="network_not_good">Il est possible que le téléchargement ne fonctionne pas si le réseau est instable. Veuillez vérifier l\'état de votre réseau.</string>
+    <string name="threeg_download_alert">Aucune connexion Wifi. Souhaitez-vous vous connecter via 3G ou LTE? (Les frais de données seront différents en fonction de votre mode de paiement).</string>
+    <string name="download_data">Le téléchargement a démarré.</string>
+    <string name="download_data_hold">Téléchargement en pause.</string>
+    <string name="restore_all_success">Encore une fois merci pour votre visite. Les articles suivants que vous avez déjà achetés seront téléchargés maintenant.</string>
+    <string name="restore_all_success_but_nohistory">Vous n\'avez pas d\'historique d\'achat ou d\'articles à télécharger.</string>
+    <string name="info_ready_to_start">Prêt à démarrer</string>
+    <string name="review_dlg_msg">Vous appréciez notre application ? \nÉvaluez-nous dès aujourd\'hui !\n Merci! :)</string>
+    <string name="review_dlg_later">Plus tard</string>
+    <string name="review_dlg_rate">Évaluez-nous ♥</string>
+	<string name="inapp_fail_etc">Une erreur s\'est produite dans le système. Veuillez essayer ultérieurement.</string>
+    <string name="play_noti_first_song">Il s\'agit de la première vidéo.</string>
+    <string name="play_noti_last_song">Il s\'agit de la dernière vidéo.</string>
+	
+	
+	 <string name="alert_title_info">Avis</string>
+    <string name="inapp_confirm_purchase">Souhaitez-vous acheter {itemname} ?</string>
+   
+	<string name="photo_access_denied_msg">Cette application n\'a pas accès à vos photos. Vous pouvez activer l\'accès dans les Paramètres [Confidentialité].</string>
+    <string name="photo_saved_success_msg">Photo enregistrée.</string>
+	<string name="photo_saved_failed_msg">L\'enregistrement de la photo a échoué. Veuillez essayer à nouveau.</string>
+
+    <string name="localpush_1day_msg">Temps de tracé de l\'alphabet amusant et facile !</string>
+    <string name="localpush_2day_msg">Jouer au jeu de bulle et apprendre la lettre B !</string>
+    <string name="localpush_3day_msg">Casser des œufs et apprendre la lettre D !</string>
+    <string name="localpush_7day_msg">Essayez l\'adorable caméra ABC dès aujourd\'hui !</string>
+    <string name="localpush_14day_msg">Vous vous rappelez de votre ABC ? Amusez-vous dès aujourd\'hui !</string>	
+
+	<string name="ssiap_canceled_purchase">Votre achat a été annulé.</string>	
+    <string name="camera_access_denied_ios">Notre application n\'a pas accès à votre caméra. Pour activer l\'accès aller à : Paramètres-Confidentialité-Appareil photo.</string>    
+</resources>

@@ -1,0 +1,9 @@
+{
+	"game":"sweep",
+	"items": [ 
+		{ "word":"ant"},
+		{ "word":"alligator"}
+
+	]
+
+}

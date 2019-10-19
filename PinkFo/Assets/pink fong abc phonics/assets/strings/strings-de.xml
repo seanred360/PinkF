@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="exit_program">Zum Beenden noch einmal drücken.</string>
+    <string name="store_buy_freeitem">Möchten Sie dieses kostenlose Element herunterladen?</string>
+    <string name="package_item_include_other_item_warning">Dieses Paket kann Elemente enthalten, die Sie bereits erworben haben.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="title_confirm">Bestätigen</string>
+    <string name="btn_ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="external_storage_not_installed">Es kann kein Speicherplatz gefunden werden. Bitte überprüfen.</string>
+    <string name="external_storage_exceed">Die App kann evtl. aufgrund mangelnder Kapazität nicht richtig funktionieren.</string>
+    <string name="external_storage_exceed_for_download">Download aufgrund mangelnder Kapazität nicht möglich.</string>
+    <string name="first_restore_notice">Ihre Kaufhistorie wird überprüft.</string>
+    <string name="app_terminate">App wurde beendet.</string>
+    <string name="network_not_connected">Richtige Netzwerkverbindung kann nicht aufgebaut werden. Bitte prüfen Sie den Netzwerkstatus und versuchen es erneut.</string>
+    <string name="network_not_good">Download kann evtl. nicht bearbeitet werden, wenn das Netzwerk instabil ist. Bitte Netzwerkstatus überprüfen.</string>
+    <string name="threeg_download_alert">Keine WLAN-Verbindung. Möchten Sie über 3G oder LTE verbinden? (Datenübertragungskosten können von Ihrem Zahlungssystem abweichen.)</string>
+    <string name="download_data">Download startet.</string>
+    <string name="download_data_hold">Download pausiert.</string>
+    <string name="restore_all_success">Danke, dass Sie uns wieder besuchen. Die folgenden Elemente, die Sie zuvor erworben haben, werden nun heruntergeladen.</string>
+    <string name="restore_all_success_but_nohistory">Sie haben keine Kaufhistorie oder Elemente zum Herunterladen.</string>
+    <string name="info_ready_to_start">Bereit zum Starten</string>
+    <string name="review_dlg_msg">Gefällt Ihnen unsere App?\nBewerten Sie sie noch heute! \nVielen Dank! :)</string>
+    <string name="review_dlg_later">Später</string>
+    <string name="review_dlg_rate">Bewerten Sie uns♥</string>
+	<string name="inapp_fail_etc">Im System ist ein Fehler aufgetreten. Bitte später versuchen.</string>
+    <string name="play_noti_first_song">Dies ist das erste Video.</string>
+    <string name="play_noti_last_song">Dies ist das letzte Video.</string>
+	
+	
+	<string name="alert_title_info">Hinweis</string>
+    <string name="inapp_confirm_purchase">Möchten Sie '{itemname}' kaufen?</string>
+   
+	<string name="photo_access_denied_msg">Diese App hat keinen Zugriff auf Ihre Fotos. Sie können den Zugriff in den [Datenschutz-]Einstellungen aktivieren.</string>
+    <string name="photo_saved_success_msg">Foto gespeichert.</string>
+	<string name="photo_saved_failed_msg">Foto speichern ist fehlgeschlagen. Bitte versuche es erneut.</string>
+	
+	<string name="localpush_1day_msg">Spaßiges &amp; Leichtes Alphabet-Nachzeichnen!</string>
+    <string name="localpush_2day_msg">Spiele das Blasenspiel &amp; lerne den Buchstaben B!</string>
+    <string name="localpush_3day_msg">Zerschlage ein paar Eier &amp; lerne den Buchstaben D!</string>
+    <string name="localpush_7day_msg">Teste die entzückende ABC-Kamera noch heute!</string>
+    <string name="localpush_14day_msg">Erinnerst du dich an das ABC? Hab heute ein wenig Spaß!</string>
+
+	<string name="ssiap_canceled_purchase">Kauf wurde abgebrochen.</string>
+    <string name="camera_access_denied_ios">Unsere App keinen Zugriff auf Ihre Kamera. Um den Zugriff zu ermöglichen gehen Sie zu: Einstellungen-Datenschutz-Kamera.</string>    
+</resources>

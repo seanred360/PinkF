@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="exit_program">もう一度押すと終了します。</string>
+    <string name="store_buy_freeitem">無料アイテムをダウンロードしますか。</string>
+    <string name="package_item_include_other_item_warning">この「セット商品」にはすでに購入してくださったアイテムが一部含まれているので重複購入の可能性があります。</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+	<string name="title_confirm">確認</string>
+    <string name="btn_ok">確認</string>
+    <string name="cancel">キャンセル</string>
+    <string name="external_storage_not_installed">メモリが不足しています。確認してください。</string>
+    <string name="external_storage_exceed">メモリが不足しています。アプリの実行に問題がある可能性もあります。 確認してください。</string>
+    <string name="external_storage_exceed_for_download">メモリが不足していて、ファイルのダウンロードに失敗しました。</string>
+    <string name="first_restore_notice">購入したアイテムを確認中です。しばらくお待ちください。</string>
+    <string name="app_terminate">アプリを終了します。</string>
+    <string name="network_not_connected">通信に失敗しました。ネットワークの状態を確認してください。</string>
+    <string name="network_not_good">ネットワーク接続が不安定のため、ダウンロードに失敗する可能性があります。ネットワーク状況をご確認の上、再度お試しください。</string>
+    <string name="threeg_download_alert">モバイルネットワークへ接続しています。データプランによっては追加料金が発生する可能性があります。続行しますか？</string>
+    <string name="download_data">ダウンロードが始まります。</string>
+    <string name="download_data_hold">ダウンロードが一時停止されました</string>
+    <string name="restore_all_success">またご利用いただきありがとうございます。購入したアイテムが再ダウンロードされます。</string>
+    <string name="restore_all_success_but_nohistory"> 購入または、ダウンロードするアイテムがありません。</string>
+    <string name="info_ready_to_start">アプリのスタートを準備中です。</string>
+    <string name="review_dlg_msg">このアプリが気に入ったら\nレビューをおねがいします。</string>
+    <string name="review_dlg_later">あとで</string>
+    <string name="review_dlg_rate">レビューをかく♥</string>
+	<string name="inapp_fail_etc">システムエラーが発生しました。しばらくたってから再度お試しください。</string>
+    <string name="play_noti_first_song">最初の映像です。</string>
+    <string name="play_noti_last_song">最後の映像です。</string>
+
+    <string name="alert_title_info">おしらせ</string>
+    <string name="inapp_confirm_purchase">\'{itemname}\'を購入しますか？</string>
+    
+	<string name="photo_access_denied_msg">写真アルバムにアクセスできません。個人情報保護設定でアクセス権限情報を修正してください。</string>
+    <string name="photo_saved_success_msg">写真が保存されました。</string>
+	<string name="photo_saved_failed_msg">写真の保存に失敗しました。もう一度やり直してください。</string>
+	
+	<string name="localpush_1day_msg">いまアルファベットのなぞり書きの時間です！</string>
+    <string name="localpush_2day_msg">今日はシャボン玉ゲームでBを学びましょう。</string>
+    <string name="localpush_3day_msg">タマゴをタップしてアルファベットのDを学びましょう。</string>
+    <string name="localpush_7day_msg">今日はABCカメラでアルファベットと写真を撮ってみませんか。 </string>
+    <string name="localpush_14day_msg">フォニックス童謡でアルファベットの勉強時間！</string>	
+	
+	<string name="ssiap_canceled_purchase">購入がキャンセルされました。</string>
+    <string name="camera_access_denied_ios">カメラにアクセスできません。個人情報保護設定でアクセス権限情報を修正してください。</string>    
+</resources>

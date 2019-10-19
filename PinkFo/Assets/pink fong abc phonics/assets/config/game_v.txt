@@ -1,0 +1,10 @@
+{
+	"game":"tamago",
+	"items": [ 
+		{ "word":"van"},
+		{ "word":"vase"},
+		{ "word":"violin"},
+		{ "word":"veggies"}
+	],
+	"touch_cnt_for_next_step" : 1.0
+}

@@ -1,0 +1,9 @@
+{
+	"game":"bubble",
+	"items": [ 
+		{ "word": "necktie" },
+		{ "word": "necklace" },
+		{ "word": "nine" }
+	]
+
+}

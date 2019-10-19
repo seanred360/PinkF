@@ -1,0 +1,10 @@
+{
+	"game":"bubble",
+	"items": [ 
+		{ "word": "seahorse" },
+		{ "word": "seastars"  },
+		{ "word": "sea" },
+		{ "word": "six" }
+	]
+
+}

@@ -1,0 +1,10 @@
+{
+	"game":"bubble",
+	"items": [ 
+		{ "word": "zoo" },
+		{ "word": "zebra"  },
+		{ "word": "zookeeper" },
+		{ "word": "zigzag" }
+	]
+
+}

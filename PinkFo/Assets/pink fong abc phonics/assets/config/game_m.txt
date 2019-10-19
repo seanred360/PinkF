@@ -1,0 +1,10 @@
+{
+	"game":"tamago",
+	"items": [ 
+		{ "word":"milk"},
+		{ "word":"monkey"},
+		{ "word":"mirror"},
+		{ "word":"mittens"}
+	],
+	"touch_cnt_for_next_step" : 1.0
+}
