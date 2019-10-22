@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/U Word Sweep.unity
+    guid: 8ce940addf2ed5b4e9de59ecb27835e7
   m_configObjects: {}

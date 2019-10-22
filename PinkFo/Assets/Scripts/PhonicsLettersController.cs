@@ -11,6 +11,8 @@ public class PhonicsLettersController : MonoBehaviour
     bool canPlaySFX = true;
     public GameObject touchParticle;
     public GameObject letters;
+    public GameObject endScreen;
+    public AudioManager endSounds;
 
     private void Start()
     {
@@ -26,6 +28,7 @@ public class PhonicsLettersController : MonoBehaviour
             GameObject.Find("Big Letter").GetComponent<Image>().color = new Color(0f,.72f,1f,1f);
             GameObject.Find("Small Letter").GetComponent<Image>().color = new Color(0f, .72f, 1f, 1f);
             letters.GetComponent<Animator>().Play("LetterDance");
+            StartCoroutine(OpenEndScreen());
             canPlaySFX = false;
         }
 
@@ -37,8 +40,21 @@ public class PhonicsLettersController : MonoBehaviour
         }
     }
 
+    IEnumerator OpenEndScreen()
+    {
+        yield return new WaitForSeconds(5.3f);
+        endScreen.SetActive(true);
+        endSounds.PlayMusic(0);
+        endSounds.PlaySFX(Random.Range(0, 2));
+    }
+
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
