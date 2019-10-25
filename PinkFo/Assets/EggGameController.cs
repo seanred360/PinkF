@@ -10,7 +10,7 @@ public class EggGameController : MonoBehaviour
     public Transform[] Eggs;
     public Transform[] EggWords;
     public Transform[] nests;
-    public int wordIndex;
+    int wordIndex;
 
     public List<GameObject> cracks;
     public GameObject crackedEgg;
@@ -19,10 +19,21 @@ public class EggGameController : MonoBehaviour
 
     public GameObject endScreen;
     public AudioManager endSounds;
+    public GameObject touchParticle;
 
     private void Start()
     {
         cracks.AddRange(Eggs[wordIndex].GetComponent<Egg>().cracks);    
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Vector3 p = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
+            Instantiate(touchParticle, new Vector3(p.x, p.y, 0.0f), Quaternion.identity);
+
+        }
     }
 
     public void MoveEggWord()

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Egg Crack.unity
+- path: Assets/Scenes/Bubble Game.unity
   isLoaded: 1
   isActive: 1
