@@ -10,12 +10,16 @@ public class Bubble : MonoBehaviour
     public GameObject popParticle;
     public Image wordObject;
     AudioManager audioManager;
+    BubbleGameController gameManager;
+    int wordIndex;
 
     private void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<BubbleGameController>();
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         GetComponent<Image>().sprite = bubbles[Random.Range(0, bubbles.Length)];
-        wordObject.sprite = words[Random.Range(0, words.Length)];
+        wordIndex = Random.Range(0, words.Length);
+        wordObject.sprite = words[wordIndex];
     }
 
     private void Update()
@@ -26,8 +30,9 @@ public class Bubble : MonoBehaviour
     public void PopBubble()
     {
         audioManager.PlayMusic(Random.Range(0, 2));
-        audioManager.PlaySFX(0);
+        audioManager.PlaySFX(wordIndex);
         Instantiate(popParticle,transform.position,Quaternion.identity);
+        gameManager.points += 1;
         Destroy(gameObject);
     }
 }

@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 3132407598106349033}
   - component: {fileID: 3634491630958142558}
   - component: {fileID: 3132407598106349034}
+  - component: {fileID: 3969443334279778474}
   m_Layer: 5
   m_Name: Bubble
   m_TagString: Untagged
@@ -232,3 +233,22 @@ MonoBehaviour:
   popParticle: {fileID: 1687118924408352, guid: 77c69ec12208c4c4380d15e30b6f8f68,
     type: 3}
   wordObject: {fileID: 3132407597597668035}
+--- !u!95 &3969443334279778474
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132407598106349036}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23e9dd0eb21be384eabecbccb7cf56fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
