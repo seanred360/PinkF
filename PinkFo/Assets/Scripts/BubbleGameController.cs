@@ -10,6 +10,7 @@ public class BubbleGameController : MonoBehaviour
     public AudioManager endSounds;
     public float spawnInterval;
     public GameObject bubblePrefab;
+    public GameObject finalBubble;
     public Transform[] spawnPoints;
     Vector2 chosenSpawn;
     Vector2 previousSpawn;
@@ -25,13 +26,11 @@ public class BubbleGameController : MonoBehaviour
 
     private void Update()
     {
-        if(points >= 10 && gameover == false)
+        if(points >= 45 && gameover == false)
         {
             gameover = true;
-            endScreen.SetActive(true);
-            endScreen.SetActive(true);
-            endSounds.PlayMusic(0);
-            endSounds.PlaySFX(Random.Range(0, 2));
+            
+            finalBubble.SetActive(true);
         }
     }
 
@@ -52,6 +51,14 @@ public class BubbleGameController : MonoBehaviour
             spawnInterval = Random.Range(.5f, 2f);
             Invoke("SpawnBubble", spawnInterval);
         }
+    }
+
+    public void GameOver()
+    {
+        endScreen.SetActive(true);
+        endScreen.SetActive(true);
+        endSounds.PlayMusic(0);
+        endSounds.PlaySFX(Random.Range(0, 2));
     }
 
     public void QuitGame()
