@@ -8,7 +8,8 @@ public class Food : MonoBehaviour
     private Vector3 offset;
 
     public int foodNumber;
-    //FoodPicker foodPicker;
+    FoodPicker foodPicker;
+    AudioManager audioManager;
     public Vector3 startPos;
     public bool isEaten;
     Eater eater;
@@ -17,9 +18,10 @@ public class Food : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
-        GetComponent<AudioSource>().clip = Resources.Load<AudioClip>(gameObject.name);
-        //foodPicker = GameObject.FindObjectOfType<FoodPicker>();
+        //GetComponent<AudioSource>().clip = Resources.Load<AudioClip>(gameObject.name);
+        foodPicker = GameObject.FindObjectOfType<FoodPicker>();
         eater = FindObjectOfType<Eater>().GetComponent<Eater>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -29,6 +31,7 @@ public class Food : MonoBehaviour
 
     void OnMouseDown()
     {
+        audioManager.PlayMusic(0);
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
     }
@@ -43,6 +46,6 @@ public class Food : MonoBehaviour
 
     private void OnMouseUp()
     {
-        
+        audioManager.PlayMusic(1);
     }
 }

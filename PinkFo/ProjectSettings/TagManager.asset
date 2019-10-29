@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Umbrella
   - FxTemporaire
+  - Food
   layers:
   - Default
   - TransparentFX

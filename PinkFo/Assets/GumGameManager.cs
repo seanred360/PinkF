@@ -1,25 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GumGameManager : MonoBehaviour
 {
+    public GameObject endScreen;
     FoodPicker foodPicker;
-    List<Food> m_food;
-    // have we met the game over condition?
+    public List<Food> m_food;
+    public AudioManager endSounds;
+    bool canPlayEndSounds = true;
+
     bool m_isGameOver = false;
     public bool IsGameOver { get { return m_isGameOver; } set { m_isGameOver = value; } }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        m_food = (Object.FindObjectsOfType<Food>() as Food[]).ToList();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if(AreAllFoodsEaten() && canPlayEndSounds)
+        {
+            canPlayEndSounds = false;
+            endScreen.SetActive(true);
+            endSounds.PlayMusic(0);
+            endSounds.PlaySFX(Random.Range(0, 2));
+        }
     }
 
     bool AreAllFoodsEaten()
@@ -33,5 +42,15 @@ public class GumGameManager : MonoBehaviour
         }
         Debug.Log("all food eaten");
         return true;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
