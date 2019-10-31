@@ -52,6 +52,7 @@ public class FoodPicker : MonoBehaviour {
 
     public void SelectTrue(int useIndex)
     {
+        eater.GetComponent<Animator>().Play("ChewGum");
         uneatenFood[useIndex].GetComponent<Food>().isEaten = true;
         uneatenFood.RemoveAt(useIndex);
         AssignFoodNumber();
@@ -63,6 +64,7 @@ public class FoodPicker : MonoBehaviour {
 
     public void SelectFalse(int useIndex)
     {
+        eater.GetComponent<Animator>().Play("Refuse");
         Debug.Log("Wrong");
         gameManager.GetComponent<Mover>().Move(uneatenFood[useIndex]);
         audioManager.PlaySFX(1);
