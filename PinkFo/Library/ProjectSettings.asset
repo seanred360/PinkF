@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: SeanRed
-  productName: B Bubbles
+  productName: IUO Dropping Things
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -265,7 +265,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: c25d362a4cd89794fa3b20c7f9088f22, type: 3}
+      m_Icon: {fileID: 2800000, guid: a2c2d489c20e68e419b01c9dac296096, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
