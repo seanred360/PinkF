@@ -20,18 +20,7 @@ public class GumGameManager : MonoBehaviour
         m_food = (Object.FindObjectsOfType<Food>() as Food[]).ToList();
     }
 
-    private void Update()
-    {
-        if(AreAllFoodsEaten() && canPlayEndSounds)
-        {
-            canPlayEndSounds = false;
-            endScreen.SetActive(true);
-            endSounds.PlayMusic(0);
-            endSounds.PlaySFX(Random.Range(0, 2));
-        }
-    }
-
-    bool AreAllFoodsEaten()
+    public bool AreAllFoodsEaten()
     {
         foreach (Food food in m_food)
         {
@@ -42,6 +31,14 @@ public class GumGameManager : MonoBehaviour
         }
         Debug.Log("all food eaten");
         return true;
+    }
+
+    public void GameOver()
+    {
+        canPlayEndSounds = false;
+        endScreen.SetActive(true);
+        endSounds.PlayMusic(0);
+        endSounds.PlaySFX(Random.Range(0, 2));
     }
 
     public void QuitGame()

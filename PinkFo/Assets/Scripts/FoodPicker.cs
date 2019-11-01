@@ -56,7 +56,7 @@ public class FoodPicker : MonoBehaviour {
         uneatenFood[useIndex].GetComponent<Food>().isEaten = true;
         uneatenFood.RemoveAt(useIndex);
         AssignFoodNumber();
-        Invoke("PickNumber",3);
+        Invoke("PickNumber",7);
         //PickNumber();
         Debug.Log("Correct");
         audioManager.PlaySFX(0);

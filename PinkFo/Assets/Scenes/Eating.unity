@@ -259,7 +259,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d8b8a68dc5ef4dc4cb2fc41b5b35bca9, type: 3}
   m_Color: {r: 0, g: 0.09803922, b: 1, a: 1}
   m_FlipX: 0
@@ -304,8 +304,8 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 517855996}
-  m_Father: {fileID: 1726224381}
-  m_RootOrder: 6
+  m_Father: {fileID: 1439519677}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.302001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.7270863, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -745,9 +745,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: acde51b066483b34c8eeba84507227a3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -868,8 +868,8 @@ GameObject:
   - component: {fileID: 469338625}
   - component: {fileID: 469338626}
   - component: {fileID: 469338628}
-  - component: {fileID: 469338627}
   - component: {fileID: 469338629}
+  - component: {fileID: 469338627}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -930,6 +930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedItem: {fileID: 0}
+  gumSplatter: {fileID: 48979792}
+  gumBubble: {fileID: 809702458}
 --- !u!50 &469338628
 Rigidbody2D:
   serializedVersion: 4
@@ -1077,13 +1079,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501745619}
-  m_LocalRotation: {x: -0, y: -0, z: 0.08020879, w: 0.9967781}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0802088, w: 0.99677813}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 32350662}
-  m_Father: {fileID: 1726224381}
-  m_RootOrder: 5
+  m_Father: {fileID: 1439519677}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.201}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1240,7 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.056025982, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1368,7 +1370,7 @@ PrefabInstance:
     - target: {fileID: 1933138704547718252, guid: af7ccd30286439c45bcb3a5cd6971311,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1933138704547718252, guid: af7ccd30286439c45bcb3a5cd6971311,
         type: 3}
@@ -1393,7 +1395,7 @@ PrefabInstance:
     - target: {fileID: 1933138704547718252, guid: af7ccd30286439c45bcb3a5cd6971311,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1933138704547718252, guid: af7ccd30286439c45bcb3a5cd6971311,
         type: 3}
@@ -1585,13 +1587,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676503974}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 999071986}
-  m_Father: {fileID: 1726224381}
-  m_RootOrder: 2
+  m_Father: {fileID: 1439519677}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1611,7 +1613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1913,7 +1915,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 13ed6080defb76e46aba297d49a2eeff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2434,8 +2436,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 3f9ce4b98bae78a4cabafd88f80121ec, type: 3}
+  m_SortingOrder: -2
+  m_Sprite: {fileID: 21300000, guid: 36b5101153f68a6419cfcda9855f65fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2479,8 +2481,8 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 415976314}
-  m_Father: {fileID: 1726224381}
-  m_RootOrder: 3
+  m_Father: {fileID: 1439519677}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.422001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2500,7 +2502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6255317, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3004,6 +3006,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 635748727}
+  - {fileID: 676503975}
+  - {fileID: 1329199652}
+  - {fileID: 1892044761}
+  - {fileID: 501745620}
+  - {fileID: 69532069}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3079,7 +3086,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 23c58c32be4577d43b4d15d2c63f0e07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3161,7 +3168,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 90309759ca4002841ba4b1d7acd66599, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3359,11 +3366,6 @@ RectTransform:
   m_Children:
   - {fileID: 469338625}
   - {fileID: 1033400505}
-  - {fileID: 676503975}
-  - {fileID: 1329199652}
-  - {fileID: 1892044761}
-  - {fileID: 501745620}
-  - {fileID: 69532069}
   - {fileID: 452307568}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -3520,7 +3522,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: f05686b32e23f9242bce9e6923cae47a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3565,8 +3567,8 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 775342184}
-  m_Father: {fileID: 1726224381}
-  m_RootOrder: 4
+  m_Father: {fileID: 1439519677}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.578}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3586,7 +3588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.95010316, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3794,9 +3796,11 @@ MonoBehaviour:
   MClips:
   - {fileID: 8300000, guid: 716efe45d54e3f748b48a165028da536, type: 3}
   - {fileID: 8300000, guid: 3495cd942f2e85a4c9a823999763d9a6, type: 3}
+  - {fileID: 8300000, guid: ce645dd2d4767ca45bdb5473c9ff783d, type: 3}
   SClips:
   - {fileID: 8300000, guid: f70358ab214145b43ace13de08334e65, type: 3}
   - {fileID: 8300000, guid: 45192af6673dbfc4cab2764bd8c9306a, type: 3}
+  - {fileID: 8300000, guid: cb54d98234fecbb4b92e38dcb598b4e5, type: 3}
   VClips: []
   PClips: []
 --- !u!82 &2032277327
@@ -4138,7 +4142,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 23c58c32be4577d43b4d15d2c63f0e07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
