@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 89
+  controlID: 14
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 90
+  controlID: 15
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 91
+  controlID: 16
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 18214
+  m_LastSelectedObjectID: -6736
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -550,20 +550,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/pink fong word power/sound/game_gum
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/pink fong word power/sound/game_gum
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sean\Documents\GitHub\PinkF\PinkFo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f60c0000
-    m_LastClickedID: 3318
-    m_ExpandedIDs: 00000000680a0000b20a0000b40b0000e20b0000ee0b0000f60c00000c0d0000d00f0000521400000c1600009c17000000190000001b0000781b0000021c000060200000ee2000009a220000be22000056420000584200005a4200005c4200005e42000060420000624200006442000066420000684200006a4200006c4200006e42000070420000724200007442000076420000784200007a4200007c4200007e42000080420000824200008442000086420000
+    m_SelectedIDs: 6a0a0000
+    m_LastClickedID: 2666
+    m_ExpandedIDs: 000000006a0a0000b40a0000b80b0000e60b0000f20b0000fa0c0000100d0000d60f00005c14000018160000a81700000c190000141b00008c1b0000161c00007c2000000a210000b6220000da220000cc410000ce410000d0410000d2410000d4410000d6410000d8410000da410000dc410000de410000e0410000e2410000e4410000e6410000e8410000ea410000ec410000ee410000f0410000f2410000f4410000f6410000f8410000fa410000fc410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000680a0000b20a0000b40b0000e20b0000ee0b0000f60c00000c0d0000d00f0000521400000c1600009c17000000190000001b0000781b0000021c000060200000ee2000009a220000be22000056420000584200005a4200005c4200005e42000060420000624200006442000066420000684200006a4200006c4200006e42000070420000724200007442000076420000784200007a4200007c4200007e42000080420000824200008442000086420000
+    m_ExpandedIDs: 000000006a0a0000b40a0000b80b0000e60b0000f20b0000fa0c0000100d0000d60f00005c14000018160000a81700000c190000141b00008c1b0000161c00007c2000000a210000b6220000da220000cc410000ce410000d0410000d2410000d4410000d6410000d8410000da410000dc410000de410000e0410000e2410000e4410000e6410000e8410000ea410000ec410000ee410000f0410000f2410000f4410000f6410000f8410000fa410000fc410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ea720000b491000030cf00009e8200009c2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -710,9 +710,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ceddffff7eefffff2cf0ffff10f1ffff8afaffffc0fbffff764300000a470000
+      m_SelectedIDs: b0e5ffff
+      m_LastClickedID: -6736
+      m_ExpandedIDs: 58ecffffc0fbffff26240000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -767,9 +767,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.5369332, y: -0.8190606, z: 350.0625}
+    m_Target: {x: -0.27193326, y: 0.13890192, z: 64.391106}
     speed: 2
-    m_Value: {x: 2.5369332, y: -0.8190606, z: 350.0625}
+    m_Value: {x: -0.27193326, y: 0.13890192, z: 64.391106}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -801,9 +801,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 15.904668
+    m_Target: 12.326647
     speed: 2
-    m_Value: 15.904668
+    m_Value: 12.326647
   m_Ortho:
     m_Target: 1
     speed: 2
