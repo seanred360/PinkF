@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.27193325757980349,"y":0.13890191912651063,"z":64.39110565185547},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":12.32664680480957,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-1.4656527042388917,"y":-0.11979721486568451,"z":279.1171875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":13.139117240905762,"orthographic":true}
+>>>>>>> parent of 1a130eff... started pump game
