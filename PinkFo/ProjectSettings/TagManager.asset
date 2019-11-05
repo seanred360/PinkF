@@ -7,6 +7,14 @@ TagManager:
   - Umbrella
   - FxTemporaire
   - Food
+  - Enemy
+  - ExplosionFX
+  - ground
+  - Obstacle
+  - Bullet
+  - HealthBar
+  - BombPickup
+  - Balloon
   layers:
   - Default
   - TransparentFX
@@ -17,7 +25,7 @@ TagManager:
   - 
   - 
   - Background
-  - 
+  - Balloon
   - 
   - 
   - 
