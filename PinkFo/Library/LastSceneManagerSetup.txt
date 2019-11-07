@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Balloon Pump.unity
+- path: Assets/Scenes/Soda Shake.unity
   isLoaded: 1
   isActive: 1

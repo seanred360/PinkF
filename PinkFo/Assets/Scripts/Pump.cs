@@ -36,9 +36,9 @@ public class Pump : MonoBehaviour
 
     public void PumpBalloon()
     {
-        if(pumpNumber == 5)
+        if(pumpNumber == 10)
         {
-            balloon.DOScale(balloon.localScale - new Vector3(100, 100, 100), 10f).OnComplete(DestroyBalloon);
+            balloon.DOScale(balloon.localScale - new Vector3(200, 200, 100), 10f).OnComplete(DestroyBalloon);
             balloon.GetComponent<Rigidbody2D>().isKinematic = false;
             balloon.GetComponent<Rigidbody2D>().AddTorque(50f);
             canMove = true;
@@ -62,6 +62,7 @@ public class Pump : MonoBehaviour
         pumpNumber = 0;
         canMove = false;
         audioManager.PlaySFX(1);
+        audioManager.PlaySFX(3);
         Destroy(balloon.gameObject);
         yield return new WaitForSeconds(2f);
         audioManager.PlaySFX(0);
