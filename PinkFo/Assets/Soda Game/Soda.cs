@@ -14,11 +14,13 @@ public class Soda : MonoBehaviour
     bool canPlaySFX = true;
     bool canLookAt;
     bool canGainSprayLevel = true;
+    bool isGameOver;
     public GameObject sprayParticle;
     public GameObject sodaLid;
     public GameObject monster;
     public GameObject endScreen;
     public Sprite fullBottle;
+    public Sprite emptyBottle;
     public Transform spraySpawn;
     public Transform target;
 
@@ -54,7 +56,7 @@ public class Soda : MonoBehaviour
         }
 
         if(timeLeft > 0 && isTimerRunning) { timeLeft -= Time.deltaTime; }
-        if(timeLeft <= 0) { StopAllCoroutines(); Invoke("GameOver",2f); monster.GetComponent<Animator>().Play("IdleMonster"); }
+        if(timeLeft <= 0 && isGameOver == false) { isGameOver = true; StopAllCoroutines(); Invoke("GameOver",2f); monster.GetComponent<Animator>().Play("IdleMonster"); GetComponent<SpriteRenderer>().sprite = emptyBottle; audioManager.PlaySFX(2); }
     }
 
     void OnMouseDown()
@@ -79,6 +81,7 @@ public class Soda : MonoBehaviour
         rb.MovePosition(cursorPosition);
         if (delta.magnitude > 30 && canGainSprayLevel)
         {
+            audioManager.PlayMusic(2);
             canGainSprayLevel = false;
             Invoke("SprayLevelDelay",.2f);
             shakeLevel += 1;
@@ -131,5 +134,10 @@ public class Soda : MonoBehaviour
     {
         canLookAt = false;
         endScreen.SetActive(true);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Floor") { audioManager.PlayMusic(3); }
     }
 }
